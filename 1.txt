@@ -1,0 +1,152 @@
+including device/htc/ace/vendorsetup.sh
+
+============================================
+PLATFORM_VERSION_CODENAME=AOSP
+PLATFORM_VERSION=4.0.4.0.4.0.4
+TARGET_PRODUCT=full_ace
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+HOST_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-2.6.32-279.11.1.el6.x86_64-x86_64-with-redhat-6.3-Santiago
+HOST_BUILD_TYPE=release
+BUILD_ID=OPENMASTER
+OUT_DIR=out
+============================================
+
+>> Android tree IDs: b2g/ics_strawberry_v1 b2g/ics_strawberry_v1-ace ics ics-ace all all-ace
+>> Analyzing workspace for change...no changes detected.
+============================================
+PLATFORM_VERSION_CODENAME=AOSP
+PLATFORM_VERSION=4.0.4.0.4.0.4
+TARGET_PRODUCT=full_ace
+TARGET_BUILD_VARIANT=eng
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+HOST_ARCH=x86
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-2.6.32-279.11.1.el6.x86_64-x86_64-with-redhat-6.3-Santiago
+HOST_BUILD_TYPE=release
+BUILD_ID=OPENMASTER
+OUT_DIR=out
+============================================
+CMake and NDK (/home/idcuser/android/B2G/prebuilt/ndk/android-ndk-r7) found, will compile apitrace
+external/apitrace/Android.mk:69: warning: overriding commands for target `out/target/product/ace/obj/SHARED_LIBRARIES/egltrace_intermediates/LINKED/egltrace.so'
+build/core/shared_library.mk:56: warning: ignoring old commands for target `out/target/product/ace/obj/SHARED_LIBRARIES/egltrace_intermediates/LINKED/egltrace.so'
+external/apitrace/Android.mk:74: warning: overriding commands for target `out/target/product/ace/system/lib/egltrace.so'
+build/core/base_rules.mk:532: warning: ignoring old commands for target `out/target/product/ace/system/lib/egltrace.so'
+external/apitrace/Android.mk:88: warning: overriding commands for target `out/target/product/ace/obj/EXECUTABLES/apitrace_intermediates/LINKED/apitrace'
+build/core/executable.mk:22: warning: ignoring old commands for target `out/target/product/ace/obj/EXECUTABLES/apitrace_intermediates/LINKED/apitrace'
+external/screencap-gonk/Android.mk:35: warning: overriding commands for target `out/target/product/ace/system/bin/screencap-gonk'
+build/core/base_rules.mk:532: warning: ignoring old commands for target `out/target/product/ace/system/bin/screencap-gonk'
+find: `../../frameworks/support/v4': No such file or directory
+find: `../../frameworks/support/v13': No such file or directory
+find: `../../external/nist-sip/java': No such file or directory
+find: `../../external/libphonenumber/java/src': No such file or directory
+gaia/Android.mk:46: warning: overriding commands for target `out/target/product/ace/data/local/gaia'
+build/core/base_rules.mk:532: warning: ignoring old commands for target `out/target/product/ace/data/local/gaia'
+gonk-misc/Android.mk:30: warning: overriding commands for target `out/target/product/ace/obj/ETC/init.rc_intermediates/init.rc'
+build/core/prebuilt.mk:117: warning: ignoring old commands for target `out/target/product/ace/obj/ETC/init.rc_intermediates/init.rc'
+gonk-misc/Android.mk:143: warning: overriding commands for target `out/target/product/ace/obj/DATA/sources.xml_intermediates/sources.xml'
+build/core/prebuilt.mk:117: warning: ignoring old commands for target `out/target/product/ace/obj/DATA/sources.xml_intermediates/sources.xml'
+gonk-misc/Android.mk:205: warning: overriding commands for target `out/target/product/ace/system/gecko'
+build/core/base_rules.mk:532: warning: ignoring old commands for target `out/target/product/ace/system/gecko'
+gonk-misc/Android.mk:270: warning: overriding commands for target `out/target/product/ace/obj/DATA/gecko_intermediates/gecko'
+build/core/prebuilt.mk:117: warning: ignoring old commands for target `out/target/product/ace/obj/DATA/gecko_intermediates/gecko'
+No private recovery resources for TARGET_DEVICE ace
+Compiling SDK Stubs: out/target/common/obj/JAVA_LIBRARIES/android_stubs_current_intermediates/classes.jar
+Fake javac 1.6.0 revision
+Fake java 1.6.0 revisiion
+Fake java 1.6.0 revisiion
+Checking API: checkapi-last
+-JXmx1024m -Jclasspath /home/idcuser/android/B2G/build/fake-jdk-tools/lib/tools.jar:out/host/linux-x86/framework/doclava.jar:out/host/linux-x86/framework/jsilver.jar -hide 2 -hide 3 -hide 4 -hide 5 -hide 6 -hide 24 -hide 25 -error 7 -error 8 -error 9 -error 10 -error 11 -error 12 -error 13 -error 14 -error 15 -error 16 -error 17 -error 18 frameworks/base/api/15.txt out/target/common/obj/PACKAGING/public_api.txt
+Checking API: checkapi-current
+-JXmx1024m -Jclasspath /home/idcuser/android/B2G/build/fake-jdk-tools/lib/tools.jar:out/host/linux-x86/framework/doclava.jar:out/host/linux-x86/framework/jsilver.jar -error 2 -error 3 -error 4 -error 5 -error 6 -error 7 -error 8 -error 9 -error 10 -error 11 -error 12 -error 13 -error 14 -error 15 -error 16 -error 17 -error 18 -error 19 -error 20 -error 21 -error 23 -error 24 -error 25 frameworks/base/api/current.txt out/target/common/obj/PACKAGING/public_api.txt
+echo  > /home/idcuser/android/B2G/gaia/.b2g.mk
+make -C /home/idcuser/android/B2G/gaia  profile
+make[1]: Entering directory `/home/idcuser/android/B2G/gaia'
+echo "$BUILD_CONFIG" > /home/idcuser/android/B2G/gaia/build/config.js
+run-js-command  applications-data
+Looking for packaged app: /home/idcuser/android/B2G/gaia/external-apps/marketplace.firefox.com/update.webapp
+run-js-command  preferences
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/calendar'
+
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/calendar'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/gallery'
+make[2]: Nothing to be done for `concatenated_scripts'.
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/gallery'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/email'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/email'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/music'
+make[2]: Nothing to be done for `concatenated_scripts'.
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/music'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/system'
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/system'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/apps/settings'
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/apps/settings'
+make[2]: Entering directory `/home/idcuser/android/B2G/gaia/test_apps/music2'
+make[2]: Nothing to be done for `concatenated_scripts'.
+make[2]: Leaving directory `/home/idcuser/android/B2G/gaia/test_apps/music2'
+Finished: bootstrapping test proxies/sandboxes
+Finished: test ui config file: ./test_apps/test-agent/config.json
+run-js-command  webapp-manifests
+run-js-command  webapp-optimize
+/apps/communications/dialer/oncall.html: [l10n] 2 missing key(s) for [en-US]: hide, unlock-a11y-button
+/apps/communications/dialer/oncall.html: [l10n] 2 missing key(s) for [zh-TW]: hide, unlock-a11y-button
+/apps/communications/dialer/oncall.html: [l10n] 2 missing key(s) for [fr]: hide, unlock-a11y-button
+/apps/communications/dialer/oncall.html: [l10n] 2 missing key(s) for [ar]: hide, unlock-a11y-button
+/home/idcuser/android/B2G/gaia/shared/locales/branding/unofficial/branding.ar.properties could not be found.
+/apps/communications/contacts/index.html: [l10n] 1 missing key(s) for [en-US]: #type_l10n_id#
+/apps/communications/contacts/index.html: [l10n] 1 missing key(s) for [zh-TW]: #type_l10n_id#
+/apps/communications/contacts/index.html: [l10n] 1 missing key(s) for [fr]: #type_l10n_id#
+/apps/communications/contacts/index.html: [l10n] 1 missing key(s) for [ar]: #type_l10n_id#
+/home/idcuser/android/B2G/gaia/shared/locales/branding/unofficial/branding.ar.properties could not be found.
+/home/idcuser/android/B2G/gaia/shared/locales/branding/unofficial/branding.ar.properties could not be found.
+/apps/settings/index.html: [l10n] 1 missing key(s) for [en-US]: keyboard
+/apps/bluetooth/transfer.html: [l10n] 1 missing key(s) for [en-US]: exit
+/apps/bluetooth/transfer.html: [l10n] 1 missing key(s) for [zh-TW]: exit
+/apps/bluetooth/transfer.html: [l10n] 1 missing key(s) for [fr]: exit
+/apps/bluetooth/transfer.html: [l10n] 1 missing key(s) for [ar]: exit
+/home/idcuser/android/B2G/gaia/shared/locales/branding/unofficial/branding.ar.properties could not be found.
+/home/idcuser/android/B2G/gaia/shared/locales/branding/unofficial/branding.ar.properties could not be found.
+/home/idcuser/android/B2G/gaia/test_apps/geoloc/locales/geoloc.ar.properties could not be found.
+run-js-command  webapp-zip
+run-js-command  optimize-clean
+Finished: Generating extensions
+test -d .git && cp tools/pre-commit .git/hooks/pre-commit || true
+run-js-command  settings
+# create a clean folder to store data for B2G, this folder will copy to b2g output folder.
+rm -rf profile/defaults
+mkdir -p profile/defaults/pref
+# rename user_pref() to pref() in user.js
+sed s/user_pref\(/pref\(/ profile/user.js > profile/defaults/pref/user.js
+cp profile/settings.json profile/defaults/settings.json
+Profile Ready: please run [b2g|firefox] -profile /home/idcuser/android/B2G/gaia/profile
+make[1]: Leaving directory `/home/idcuser/android/B2G/gaia'
+target Prebuilt: gaia (out/target/product/ace/obj/DATA/gaia_intermediates/gaia)
+Gaia install path: out/target/product/ace/data/local/webapps
+mkdir -p out/target/product/ace/data/local out/target/product/ace/data/local
+rm -rf out/target/product/ace/data/local/webapps
+cd out/target/product/ace/data/local && tar xfz /home/idcuser/android/B2G/out/target/product/ace/obj/DATA/gaia_intermediates/gaia
+mkdir -p out/target/product/ace/system/b2g
+cp /home/idcuser/android/B2G/gaia/profile/user.js out/target/product/ace/system/b2g/user.js
+target thumb C++: libgui <= frameworks/base/libs/gui/SurfaceTextureClient.cpp
+frameworks/base/libs/gui/SurfaceTextureClient.cpp: In member function 'virtual int android::SurfaceTextureClient::setUsage(uint32_t)':
+frameworks/base/libs/gui/SurfaceTextureClient.cpp:500: error: 'GRALLOC_USAGE_EXTERNAL_ONLY' was not declared in this scope
+frameworks/base/libs/gui/SurfaceTextureClient.cpp:505: error: 'GRALLOC_USAGE_EXTERNAL_BLOCK' was not declared in this scope
+make: *** [out/target/product/ace/obj/SHARED_LIBRARIES/libgui_intermediates/SurfaceTextureClient.o] Error 1
+
+real	0m28.796s
+user	0m23.678s
+sys	0m3.998s
+
+> Build failed! <
+
+Build with |./build.sh -j1| for better messages
+If all else fails, use |rm -rf objdir-gecko| to clobber gecko and |rm -rf out| to clobber everything else.
